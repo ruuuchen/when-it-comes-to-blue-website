@@ -1,0 +1,236 @@
+// 色彩管理-----------------------
+$color_blue: #0345bd
+$color_light_blue: #c2d2ed
+$color_dark_blue: #162f5c
+$color_white: #FAFAFA
+$color_black: #1f2022
+
+*
+  font-family: "PT Serif", serif,"微軟正黑體"
+  letter-spacing: 1px
+  box-sizing: border-box
+  color: $color_black
+
+// debug-----------------------
+// *
+//   border: solid 1px black
+// section
+//   display: none
+// section#section_work
+//   display: inline
+// body
+//   height: 5000px
+
+// 頁面共通設定-----------------------
+.page.right
+  padding-left: 350px
+  background-color: $color_white
+  overflow: hidden
+  
+section
+  padding: 50px 0px
+  
+.container
+  padding: 0px 200px 
+  
+.jumbotron  
+  border-radius: 0px
+  background-color: $color_dark_blue
+  color: $color_white
+  margin-bottom: 50px
+  
+h4, h5 
+  text-align: center
+  font-weight: 700
+  color: $color_white
+  
+h4
+  margin-bottom: 50px 
+  padding-bottom: 5px
+  color: $color_dark_blue
+  border-bottom: solid 1px $color_dark_blue
+
+.btn
+  font-size: 14px
+  padding: 5px 10px
+  opacity: 0.8
+  box-shadow: 0px 2px 40px -5px  $color_black
+  transition-duration: 0.2s
+  
+// 首頁section_about----------------------- 
+section#section_about
+  padding: 0px
+  & .col-sm-12
+    padding: 0px
+    
+.img_cover
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/48/%E7%83%8F%E9%8E%AE_%E8%97%8D%E6%9F%93%E5%9D%8A_-_panoramio.jpg)
+  background-size: cover
+  background-position: center center
+  min-width: 300px
+  & .explore 
+    padding: 610px 0px 20px 0px  
+    text-align: center  
+  & .btn 
+    color: $color_black 
+    background-color: $color_white
+    &:hover 
+      color: $color_white
+      background-color: $color_black
+    &::before
+      content: "☟"+"EXPLORE"+"☟"
+      
+// 前言section_intro----------------------- 
+img.img_dyevat
+  width: 100%  
+p
+  margin-top: 50px 
+    
+// 團隊section_team-----------------------     
+section#section_team    
+  margin-bottom: 60px
+
+// 製程section_step----------------------- 
+.step_box
+  padding: 10px
+  box-shadow: 0px 2px 20px -10px  $color_black
+  margin-bottom: 30px
+  & img
+    width: 100%  
+    margin-top: 30px
+  & h6
+    text-align: center
+    margin-top: 30px 
+  & p
+    margin-top: 15px  
+    margin-bottom: 50px
+    font-size: 14px
+    
+// 特色section_good----------------------- 
+.good_area  
+  display: flex
+  justify-content: center
+  align-items: center
+  font-weight: 700
+  padding-bottom: 20px
+  & i
+    color: $color_dark_blue  
+    font-size: 25px
+    text-align: center
+    width: 40px
+    height: 30px
+  & span
+    color: $color_dark_blue  
+    padding: 5px  
+ 
+// 應用section_work----------------------- 
+section#section_work
+  margin-bottom: 90px
+.work_box
+  box-shadow: 0px 0px 20px -10px  $color_black
+  & img
+    width: 100%  
+  & .text_name
+    background-color: $color_dark_blue
+    color: $color_white
+    & p.h5  
+      text-align: center  
+      margin: 0px
+      padding: 10px 
+    
+// 資訊section_map-----------------------     
+section#section_map 
+  padding-top: 50px
+  & .reverse  
+    flex-direction: row-reverse
+  & iframe
+    width: 100%
+    height: 350px
+  & .text_info
+    padding-bottom: 30px
+    list-style: none 
+    font-size: 14px
+  
+// 頁尾-----------------------        
+footer.jumbotron
+  position: relative 
+  margin-bottom: 0px
+  & .form-control 
+    background-color: darken($color_dark_blue,5)
+    color: darken($color_white,50)
+  & .btn 
+    position: absolute 
+    left: 50%
+    transform: translateX(-50%)
+  & .btn-success  
+    border: solid 1px $color_white
+    background-color: transparent
+    color: $color_white
+
+// 導覽列-----------------------
+.navbar
+  position: fixed
+  display: block
+  right: calc(100% - 350px)
+  top: 0px
+  width: 350px
+  padding: 0px
+  box-shadow: -20px 0px 40px $color_black
+.row-logo 
+  width: 100%
+  overflow: hidden
+  & a.col-sm-12 
+    cursor: pointer 
+    padding: 0px
+  & img
+    width: 120%  
+.row-bottom
+  width: 100%
+  display: flex
+  flex-direction: column
+  background-color: white
+  & a.col-theme-nav    
+    padding: 32px 
+    text-decoration: none
+    font-size: 20px
+    color: $color_blue
+    border-bottom: solid 0.5px $color_blue
+    transition-duration: 0.5s
+    &:hover
+      background-color: $color_black
+      color: $color_white
+
+@media screen and (max-width: 999px) and (min-width: 0px)    
+  .page.right 
+    padding-left: 0px
+    padding-right: 0px
+    padding-top: 60px
+  .container
+    padding: 0px 50px   
+  .navbar
+    right: 0px
+    width: 100%
+    height: 60px
+    background-color: white
+    box-shadow: 0px -10px 30px $color_black
+    display: flex
+    align-items: center
+    &:before
+      content: "看青"
+      display: block
+      font-size: 24px
+      padding: 5px 20px
+      color: $color_blue
+    & .row-logo
+      display: none
+    & .row-bottom
+      width: auto
+      flex-direction: row
+      right: 0px
+      & a.col-theme-nav 
+        font-size: 14px
+        padding: 5px 10px
+        margin-right: 10px 
+        &:hover
+          background-color: $color_blue
+          color: $color_white
