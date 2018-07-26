@@ -148,7 +148,7 @@ html(lang="en")
                     li 網站製作：陳玟如
                     li 展場執行：鄭伊庭、張秉真、謝安安、許雅筑、陳玟如、張嘉倩
             .col-md-7.col-sm-12
-              iframe(frameborder='0', scrolling='no', marginheight='0', marginwidth='0', src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=台北市大安區基隆路四段43號&z=16&output=embed&t=')
+              #map
 
       footer.jumbotron
         .container
@@ -170,3 +170,4 @@ html(lang="en")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js")
   script(src="js/index.js")
+  script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASYrmvf8Pg0awTHB4UQxjjymENhg717Qk&callback=initMap")

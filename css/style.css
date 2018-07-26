@@ -1,6 +1,6 @@
 @charset "UTF-8";
 * {
-  font-family: "PT Serif",serif,"NSimSun";
+  font-family: "PT Serif", serif, "STsong", "NSimSun";
   letter-spacing: 1px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -142,6 +142,10 @@ section#section_map {
     padding-bottom: 30px;
     list-style: none;
     font-size: 14px; }
+
+#map {
+  width: 100%;
+  height: 350px; }
 
 footer.jumbotron {
   position: relative;
