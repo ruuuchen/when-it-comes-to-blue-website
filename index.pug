@@ -12,162 +12,159 @@ html(lang="en")
     link(rel="stylesheet", href="css/style.css")
 
   body
+    .page.right
+      section#section_about
+        .container-fluid
+          .row
+            .col-sm-12
+              .img_cover
+                .explore
+                  a.btn(href="#section_intro" data-bottom-top="transform: translateY(-60px);opacity: 1.8" data-center="transform: translateY(0px);opacity: 0")
+      section.jumbotron
+        .container
+          h5 你可曾見過世界原始的顏色？
+      section#section_intro
+        .container
+          .row
+            .col-sm-12
+              h4 前言簡介
+          .row
+            .col-sm-12
+              img.img_dyevat(src="img/dyevat.jpg", alt="藍染缸" data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+          .row
+            .col-sm-12
+              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 藍染師傅手掌上來來回回堆疊出的藍，手掌中摸的卻是曾經的青。而據說那些青，來自綠葉，來自陽光，也來自守護，反反覆覆暈染成了藍。於時，我們看到了綿綿如存的時光。
 
-  // 頁面-----------------------
-  .page.right
-    section#section_about
-      .container-fluid
-        .row
-          .col-sm-12
-            .img_cover
-              .explore
-                a.btn(href="#section_intro" data-bottom-top="transform: translateY(-60px);opacity: 1.8" data-center="transform: translateY(0px);opacity: 0")
-    section.jumbotron
-      .container
-        h5 你可曾見過世界原始的顏色？
-    section#section_intro
-      .container
-        .row
-          .col-sm-12
-            h4 前言簡介
-        .row
-          .col-sm-12
-            img.img_dyevat(src="img/dyevat.jpg", alt="藍染缸" data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-        .row
-          .col-sm-12
-            p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 藍染師傅手掌上來來回回堆疊出的藍，手掌中摸的卻是曾經的青。而據說那些青，來自綠葉，來自陽光，也來自守護，反反覆覆暈染成了藍。於時，我們看到了綿綿如存的時光。
+      section#section_team
+        .container
+          .row
+            .col-sm-12
+              h4 關於我們
+          .row
+            .col-sm-12
+              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 由六位喜歡工藝的學生們所組成，包含了工業設計、商業設計和建築系。透過實際拜訪三峽藍染遊客服務中心，隨著翻攪、沈澱、曝曬，反覆的體驗過程，漸漸解讀出「藍染是屬於時間的」。
+              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 對於藍染，每層顏色背後代表著歲月，代表著我們小心翼翼維護、等待其成長褪變，融入成生活的一部分。「看青」計畫即是這份心意，將農人們守護著未成熟的作物的心境，轉化爲共通的等待。透過這次的計畫，詮釋藍染背後的故事與時間連結，也希望藍染的本質可以是一種新的生活態度，成為現代化的選擇。
 
-    section#section_team
-      .container
-        .row
-          .col-sm-12
-            h4 關於我們
-        .row
-          .col-sm-12
-            p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 由六位喜歡工藝的學生們所組成，包含了工業設計、商業設計和建築系。透過實際拜訪三峽藍染遊客服務中心，隨著翻攪、沈澱、曝曬，反覆的體驗過程，漸漸解讀出「藍染是屬於時間的」。
-            p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 對於藍染，每層顏色背後代表著歲月，代表著我們小心翼翼維護、等待其成長褪變，融入成生活的一部分。「看青」計畫即是這份心意，將農人們守護著未成熟的作物的心境，轉化爲共通的等待。透過這次的計畫，詮釋藍染背後的故事與時間連結，也希望藍染的本質可以是一種新的生活態度，成為現代化的選擇。
+      section.jumbotron
+        .container
+          h5 一場跟大自然的合作，永遠有不期而遇的驚喜。
 
-    section.jumbotron
-      .container
-        h5 一場跟大自然的合作，永遠有不期而遇的驚喜。
+      section#section_step
+        .container
+          .row
+            .col-sm-12
+              h4  藍染製程
+          .row
+            .col-lg-4.col-md-6.col-sm-12
+              .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                img(src="img/step01.jpg", alt="")
+                h6 step01. 採藍
+                p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")  採集大菁葉，以水清洗後浸泡。夏天浸泡一天半，冬天約需四天。
+            .col-lg-4.col-md-6.col-sm-12
+              .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                img(src="img/step02.jpg", alt="")
+                h6 step02. 打藍
+                p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 將藍葉撈除，石灰倒入浸泡液中，手動或電動攪拌至無泡沫後靜置。
+            .col-lg-4.col-md-6.col-sm-12
+              .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                img(src="img/step03.jpg", alt="")
+                h6 step03. 建藍
+                p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 待藍液靜置後分層，傾倒上層澄清液，下層藍泥裝入棉袋瀝乾。
+            .col-lg-4.col-md-6.col-sm-12
+              .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                img(src="img/step04.jpg", alt="")
+                h6 step04. 建藍
+                p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 草木灰煮粳製作鹼水，倒入染缸，加入藍泥、米酒、麥芽糖等營養劑靜置發酵。每日早晚攪拌七日後綠色液面浮出藍色泡沫。
+            .col-lg-4.col-md-6.col-sm-12
+              .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                img(src="img/step05.jpg", alt="")
+                h6 step05. 染藍
+                p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 將精煉後的棉麻布料放入染缸重複浸泡 ( 每次兩分鐘 ) ，以及晾掛三到五次。最後以清水漂洗，浸泡醋液，晾乾燙平，完成染布。
 
-    section#section_step
-      .container
-        .row
-          .col-sm-12
-            h4  藍染製程
-        .row
-          .col-lg-4.col-md-6.col-sm-12
-            .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              img(src="img/step01.jpg", alt="")
-              h6 step01. 採藍
-              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")  採集大菁葉，以水清洗後浸泡。夏天浸泡一天半，冬天約需四天。
-          .col-lg-4.col-md-6.col-sm-12
-            .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              img(src="img/step02.jpg", alt="")
-              h6 step02. 打藍
-              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 將藍葉撈除，石灰倒入浸泡液中，手動或電動攪拌至無泡沫後靜置。
-          .col-lg-4.col-md-6.col-sm-12
-            .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              img(src="img/step03.jpg", alt="")
-              h6 step03. 建藍
-              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 待藍液靜置後分層，傾倒上層澄清液，下層藍泥裝入棉袋瀝乾。
-          .col-lg-4.col-md-6.col-sm-12
-            .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              img(src="img/step04.jpg", alt="")
-              h6 step04. 建藍
-              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 草木灰煮粳製作鹼水，倒入染缸，加入藍泥、米酒、麥芽糖等營養劑靜置發酵。每日早晚攪拌七日後綠色液面浮出藍色泡沫。
-          .col-lg-4.col-md-6.col-sm-12
-            .step_box(data-bottom-top="transform: translateY(-100px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              img(src="img/step05.jpg", alt="")
-              h6 step05. 染藍
-              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1") 將精煉後的棉麻布料放入染缸重複浸泡 ( 每次兩分鐘 ) ，以及晾掛三到五次。最後以清水漂洗，浸泡醋液，晾乾燙平，完成染布。
+      section#section_good
+       .container
+          .row
+            .col-sm-12
+              h4  植物染的特色
+          .row
+            .col-sm-12
+              .list_area(data-bottom-top="transform: translateY(-30px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                .row
+                  .col-lg-12.col-md-12.col-sm-12
+                    .good_area
+                      i.fas.fa-leaf
+                      span 天然染劑
+                      span 較少污染
+                  .col-lg-12.col-md-12.col-sm-12
+                    .good_area
+                      i.fas.fa-hand-holding-heart
+                      span 柔軟細緻
+                      span 呵護肌膚
+                  .col-lg-12.col-md-12.col-sm-12
+                    .good_area
+                      i.fas.fa-magic
+                      span 多樣色層
+                      span 獨一無二
+          .row
+            .col-sm-12
+              p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")  天然染料累積了許多先民的智慧與對自然環境的尊重，由於採自天然的植物，可避免化學染料嚴重的污染問題；柔軟細緻的質感，可以呵護敏感脆弱的肌膚；而高彩度及富變化的色層，與獨一無二的圖案則處處讓人驚豔，值得細細品味。
 
-    section#section_good
-     .container
-        .row
-          .col-sm-12
-            h4  植物染的特色
-        .row
-          .col-sm-12
-            .list_area(data-bottom-top="transform: translateY(-30px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+      section#section_work
+        .container
+          .row
+            .col-sm-12
+              h4 藍染應用
+          .row
+            .col-md-6.col-sm-12
+              .work_box(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                .text_name
+                  p.h5 傳統花布系列
+                .img_work
+                  img(src="img/old_work.jpg", alt="")
+            .col-md-6.col-sm-12
+              .work_box(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
+                .text_name
+                  p.h5 現代物件系列
+                .img_work
+                  img(src="img/new_work.jpg", alt="")
+
+      section#section_map
+        .container-fluid
+          .row.reverse
+            .col-md-5.col-sm-12
               .row
-                .col-lg-12.col-md-12.col-sm-12
-                  .good_area
-                    i.fas.fa-leaf
-                    span 天然染劑
-                    span 較少污染
-                .col-lg-12.col-md-12.col-sm-12
-                  .good_area
-                    i.fas.fa-hand-holding-heart
-                    span 柔軟細緻
-                    span 呵護肌膚
-                .col-lg-12.col-md-12.col-sm-12
-                  .good_area
-                    i.fas.fa-magic
-                    span 多樣色層
-                    span 獨一無二
-        .row
-          .col-sm-12
-            p(data-bottom-top="transform: translateY(-10px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")  天然染料累積了許多先民的智慧與對自然環境的尊重，由於採自天然的植物，可避免化學染料嚴重的污染問題；柔軟細緻的質感，可以呵護敏感脆弱的肌膚；而高彩度及富變化的色層，與獨一無二的圖案則處處讓人驚豔，值得細細品味。
+                .col-sm-12
+                  h4 展覽資訊
+              .row
+                .col-sm-12
+                  .text_info
+                    h6 臺灣科大設計週主題展－看青
+                    li 展覽日期：2016年05月07日至15日
+                    li 展覽地點：臺灣科技大學 T2-3F 灰磚廣場
+                    li 總籌畫：鄭伊庭、張秉真
+                    li 展覽企畫：陳玟如
+                    li 主視覺設計：許雅筑
+                    li 平面設計：謝安安
+                    li 網站製作：陳玟如
+                    li 展場執行：鄭伊庭、張秉真、謝安安、許雅筑、陳玟如、張嘉倩
+            .col-md-7.col-sm-12
+              iframe(frameborder='0', scrolling='no', marginheight='0', marginwidth='0', src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=台北市大安區基隆路四段43號&z=16&output=embed&t=')
 
-    section#section_work
-      .container
-        .row
-          .col-sm-12
-            h4 藍染應用
-        .row
-          .col-md-6.col-sm-12
-            .work_box(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              .text_name
-                p.h5 傳統花布系列
-              .img_work
-                img(src="img/old_work.jpg", alt="")
-          .col-md-6.col-sm-12
-            .work_box(data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1")
-              .text_name
-                p.h5 現代物件系列
-              .img_work
-                img(src="img/new_work.jpg", alt="")
-
-    section#section_map
-      .container-fluid
-        .row.reverse
-          .col-md-5.col-sm-12
-            .row
-              .col-sm-12
-                h4 展覽資訊
-            .row
-              .col-sm-12
-                .text_info
-                  h6 臺灣科大設計週主題展－看青
-                  li 展覽日期：2016年05月07日至15日
-                  li 展覽地點：臺灣科技大學 T2-3F 灰磚廣場
-                  li 總籌畫：鄭伊庭、張秉真
-                  li 展覽企畫：陳玟如
-                  li 主視覺設計：許雅筑
-                  li 平面設計：謝安安
-                  li 網站製作：陳玟如
-                  li 展場執行：鄭伊庭、張秉真、謝安安、許雅筑、陳玟如、張嘉倩
-          .col-md-7.col-sm-12
-            iframe(frameborder='0', scrolling='no', marginheight='0', marginwidth='0', src='http://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=台北市大安區基隆路四段43號&z=16&output=embed&t=')
-
-    footer.jumbotron
-      .container
-        h5 想了解更多看青的故事嗎 ?
-        input.form-control(placeholder="Email")
-        hr
-        button.btn ✓ 訂閱
-
-  // 導覽列-----------------------
-  .navbar
-    .row-logo
-      a.col-sm-12(href="#section_about")
-        img(src="img/poster.jpg", alt="看青")
-    .row-bottom
-      a.col-theme-nav.text-center(href="#section_intro") ABOUT
-      a.col-theme-nav.text-center(href="#section_step") PROJECT
-      a.col-theme-nav.text-center(href="#section_map") INFOS
+      footer.jumbotron
+        .container
+          h5 想了解更多看青的故事嗎 ?
+          input.form-control(placeholder="Email")
+          hr
+          button.btn ✓ 訂閱
+    // 導覽列-----------------------
+    .navbar
+      .row-logo
+        a.col-sm-12(href="#section_about")
+          img(src="img/poster.jpg", alt="看青")
+      .row-bottom
+        a.col-theme-nav.text-center(href="#section_intro") ABOUT
+        a.col-theme-nav.text-center(href="#section_step") PROJECT
+        a.col-theme-nav.text-center(href="#section_map") INFOS
 
   script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js")
