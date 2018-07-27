@@ -1,9 +1,9 @@
 // skrollr初始值-----------------------
 $(document).ready(function(){
-      if ($(window).width() > 1000) {
-          var s = skrollr.init();
-      }
-    });
+  if ($(window).width() > 1000) {
+      var s = skrollr.init();
+  }
+});
 
 
 // 訂閱按鈕-----------------------

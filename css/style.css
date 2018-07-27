@@ -1,8 +1,7 @@
 @charset "UTF-8";
 * {
-  font-family: "PT Serif", serif, "STsong", "NSimSun";
+  font-family: "PT Serif", serif, "STsong", "NSimSun", "微軟正黑體";
   letter-spacing: 1px;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   color: #1f2022; }
 
@@ -29,7 +28,7 @@ h4, h5 {
   color: #FAFAFA; }
 
 h4 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding-bottom: 5px;
   color: #162f5c;
   border-bottom: solid 1px #162f5c; }
@@ -38,10 +37,7 @@ h4 {
   font-size: 14px;
   padding: 5px 10px;
   opacity: 0.8;
-  -webkit-box-shadow: 0px 2px 40px -5px #1f2022;
   box-shadow: 0px 2px 40px -5px #1f2022;
-  -webkit-transition-duration: 0.2s;
-  -o-transition-duration: 0.2s;
   transition-duration: 0.2s; }
 
 section#section_about {
@@ -70,14 +66,13 @@ img.img_dyevat {
   width: 100%; }
 
 p {
-  margin-top: 50px; }
+  margin-top: 15px; }
 
 section#section_team {
   margin-bottom: 60px; }
 
 .step_box {
   padding: 10px;
-  -webkit-box-shadow: 0px 2px 20px -10px #1f2022;
   box-shadow: 0px 2px 20px -10px #1f2022;
   margin-bottom: 30px; }
   .step_box img {
@@ -92,14 +87,8 @@ section#section_team {
     font-size: 14px; }
 
 .good_area {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   font-weight: 700; }
   .good_area i {
@@ -116,7 +105,6 @@ section#section_work {
   margin-bottom: 90px; }
 
 .work_box {
-  -webkit-box-shadow: 0px 0px 20px -10px #1f2022;
   box-shadow: 0px 0px 20px -10px #1f2022; }
   .work_box img {
     width: 100%; }
@@ -131,13 +119,7 @@ section#section_work {
 section#section_map {
   padding-top: 50px; }
   section#section_map .reverse {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse; }
-  section#section_map iframe {
-    width: 100%;
-    height: 350px; }
   section#section_map .text_info {
     padding-bottom: 30px;
     list-style: none;
@@ -157,8 +139,6 @@ footer.jumbotron {
     position: absolute;
     left: 50%;
     bottom: 20px;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
     transform: translateX(-50%); }
   footer.jumbotron .btn-success {
     border: solid 1px #FAFAFA;
@@ -173,7 +153,6 @@ footer.jumbotron {
   width: 350px;
   height: 100%;
   padding: 0px;
-  -webkit-box-shadow: -20px 0px 40px #1f2022;
   box-shadow: -20px 0px 40px #1f2022; }
 
 .row-logo {
@@ -187,12 +166,7 @@ footer.jumbotron {
 
 .row-bottom {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
   position: absolute;
   bottom: 0px;
@@ -204,8 +178,6 @@ footer.jumbotron {
     font-size: 20px;
     color: #0345bd;
     border-bottom: solid 0.5px #0345bd;
-    -webkit-transition-duration: 0.5s;
-    -o-transition-duration: 0.5s;
     transition-duration: 0.5s; }
     .row-bottom a.col-theme-nav:hover {
       background-color: #1f2022;
@@ -216,22 +188,20 @@ footer.jumbotron {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 60px; }
+
   .img_cover .explore {
-    padding: 460px 0px 20px 0px; }
+    padding: 500px 0px 80px 0px; }
+
   .container {
     padding: 0px 50px; }
+
   .navbar {
     right: 0px;
     width: 100%;
     height: 60px;
     background-color: white;
-    -webkit-box-shadow: 0px -10px 30px #1f2022;
     box-shadow: 0px -10px 30px #1f2022;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center; }
     .navbar:before {
       content: "看青";
@@ -243,9 +213,6 @@ footer.jumbotron {
       display: none; }
     .navbar .row-bottom {
       width: auto;
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
       flex-direction: row;
       position: relative;
       right: 0px; }
@@ -257,3 +224,5 @@ footer.jumbotron {
         .navbar .row-bottom a.col-theme-nav:hover {
           background-color: #0345bd;
           color: #FAFAFA; } }
+
+/*# sourceMappingURL=style.css.map */
